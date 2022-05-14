@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="theme-color" content="#FFFFFF" />
+        
+        <meta name="description" content="선거 후보의 공약을 관심주제에 맞추어 보여드립니다" />
+        
+        <meta property="og:title" content="공약한판" />
+        <meta property="og:description" content="이재명 후보의 공약을 관심주제에 맞추어 보여드립니다" />
+        <meta property="og:image" content="https://gongyak.kr/img/gate_image-jm.png" />
+
+        <title>공약한판</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./img/favicon/site.webmanifest">
+        <link rel="stylesheet" href="./style/style.css" type="text/css" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVGEJ0VLEJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-DVGEJ0VLEJ');
+        </script>
+
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+        <script type="text/javascript" src="./script/sharing.js"></script>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </head>
+    <body>
+        <header id="header" onclick="reloadPage();">
+            <div class="title">
+                <img class="title" src="./img/title.png" alt="공약한판" />
+            </div>
+        </header>
+
+        <article class="elections">
+            <div class="elections_title">제8회 전국동시지방선거</div>
+            <div class="elections_date">투표일 2022년 6월 1일 (예정)</div>
+            <div class="candidate">
+                <div class="candidate_kind">서울시장후보 기호1번 </div>
+                <div class="candidate_name">송영길</div>
+                <div class="candidate_link">
+                    <a href="./gil2022/">
+                        공약보기
+                        <img src="./img/outlink.png" alt="내용 더 보기 링크 열기" />
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="elections">
+            <div class="elections_title">제20대 대통령선거</div>
+            <div class="elections_date">투표일 2022년 3월 9일 (종료)</div>
+            <div class="candidate">
+                <div class="candidate_kind">대통령후보 기호1번 </div>
+                <div class="candidate_name">이재명</div>
+                <div class="candidate_link">
+                    <a href="./jm2022/">
+                        공약보기
+                        <img src="./img/outlink.png" alt="내용 더 보기 링크 열기" />
+                    </a>
+                </div>
+            </div>
+        </article>
+        
+        <footer>
+            <div class="sharing">
+                <a href="#" onclick="shareFacebook()">
+                    <img src="./img/icon_facebook.svg" alt="페이스북으로 공유하기"  /></a>
+                <a href="#" onclick="shareKakaoTalk()">
+                    <img src="./img/icon_kakaotalk.svg" alt="카카오톡으로 공유하기" /></a>
+                <a href="#" onclick="shareTelegram()">
+                    <img src="./img/icon_telegram.png" alt="텔레그램으로 공유하기" /></a>
+                <a href="#" onclick="shareLink()">
+                    <img src="./img/icon_link.png" alt="웹사이트 주소 공유하기" /></a>
+            </div>
+            <div>
+                이 웹사이트는 공개된 정보를 사용합니다. 
+                오픈된 소스 확인 및 제안은 <a href="https://github.com/gongyak/gongyak.github.io" target="_blank" rel="noopener noreferrer">GitHub 저장소</a>를 확인하세요.
+            </div>            
+            <div class="credit">
+                <h4>개인 프로젝트로 만든 웹사이트입니다.</h4>
+                <div class="creators">
+                    <div class="creator">
+                        <a href="https://www.youtube.com/channel/UCl-c82CnRy7JqgDepbkr73g" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <img src="./img/face_yoonyi.png" alt="김윤이 사진" />
+                            </div>
+                            <div class="name">김윤이</div>
+                            <div>더불어민주당1호 국가인재영입</div>
+                            <div>(주)뉴로어소시에이츠 CEO</div>
+                        </a>
+                    </div>
+                    <div class="creator">
+                        <a href="https://africastart.com" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <img src="./img/face_nedpark.png" alt="박종욱 사진" /><br />
+                            </div>
+                            <div class="name">박종욱</div>
+                            <div>클리앙 닉네임 얼음폭탄</div>
+                            <div>(주)뉴로어소시에이츠 CTO</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
