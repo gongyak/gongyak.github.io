@@ -97,7 +97,8 @@ article .elections_date {
 article .candidate {
     margin-top: 35px;
     margin-bottom: 35px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
     box-shadow: 0 5px 5px #F3F3F4;
     border-radius: 15px;
@@ -116,18 +117,21 @@ article .candidate div {
 }
 
 article .candidate_kind {
-    margin: 7px;
+    margin: 10px;
     font-size: large;
     font-weight: bolder;
     color:#0B68B3;
 }
 
 article .candidate_name {
-    margin: 7px;
+    margin: 10px;
     font-size: x-large;
     font-weight: bold;
 }
 
+article .candidate_banner img {
+    width: 100%;
+}
 
 article .candidate_link {
     margin: 30px;
